@@ -1,0 +1,56 @@
+.promotion-container {
+    display: flex;
+    align-items: stretch;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom: 0;
+
+}
+
+.promotion-title{
+    color:theme-color("section-bg");
+}
+    .promotion-description {
+        color:theme-color("title");
+        font-size: $font-size-md;
+        line-height: 1rem;
+    }
+
+.img-right {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.right {
+    width: 48.58%;
+    padding-top: 0px;
+    flex-shrink: 0;
+}
+.banner-info {
+    width: 52%;
+    display: flex;
+    align-content: center;
+    padding:4rem 2rem;
+    flex-flow: wrap;
+}
+.promotion-banner {
+    background-color: #1a212a;
+    border-radius: 1rem;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    padding-right: 0;
+}
+.flag svg {
+    position: absolute;
+    top: 0px;
+    left: 53%;
+    z-index: 1;
+}
+
+.promotion-banner + .promotion-banner {
+    margin-left: 20px;
+}   
+// }

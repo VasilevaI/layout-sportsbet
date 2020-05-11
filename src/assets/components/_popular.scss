@@ -1,0 +1,39 @@
+.popular-wrapper {
+    padding-bottom: 0.25rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid theme-color("link-color");
+
+    h3 {
+        color: theme-color("font-color");
+        margin-bottom: $font-size-xxlg;
+    }
+    .popular-container {
+        .popular-list {
+            align-items: stretch;
+            padding-left: 0;
+            overflow-x: auto;
+            overflow-y: hidden;
+            .single-item {
+                list-style-type: none;
+                margin-right: 1rem;
+                a {
+                    text-decoration: none;
+                    display: flex;
+                    width: 15.75rem;
+                    color: theme-color("cat-color");
+
+                    img {
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 25%;
+                        margin-right: 8px;
+                    }
+
+                    .popular-info {
+                        font-size: $font-size-mlg;
+                    }
+                }
+            }
+        }
+    }
+}

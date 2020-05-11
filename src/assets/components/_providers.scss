@@ -1,0 +1,35 @@
+.provider-container {
+    align-items: stretch;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom: 0;
+}
+img.logo {
+     max-width: 100%;
+    max-height: 100%;
+}
+ul.logo-carousel {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    list-style-type: none;
+}
+.logo-carousel li {
+    height: 3.75rem;
+    width: 11rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+.logo-carousel li:nth-child(1) {
+    margin-left: 1rem !important;
+}
+
+.logo-carousel a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 1rem;
+}

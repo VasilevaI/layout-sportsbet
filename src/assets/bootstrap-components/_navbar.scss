@@ -22,14 +22,13 @@
 
     .navbar-nav {
         .nav-link {
-            font-size: $font-size-md;
+            font-size: $font-size-xlg;
             font-weight: $font-weight-semibold;
             color: hsla(0,0%,100%,.7);
             padding: 1rem .75rem;
             border-top: 3px solid transparent;
             border-bottom: 3px solid transparent;
             &:hover, &.active {
-                border-bottom: 3px solid $white;
                 color: $white;
                 @include media-breakpoint-down(sm) {
                     border-bottom: 3px solid transparent;
@@ -44,4 +43,5 @@
 
     }
 
+    
 }
